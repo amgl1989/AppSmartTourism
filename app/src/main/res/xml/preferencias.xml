@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:key="preferencias_principal" >
+    <CheckBoxPreference
+        android:key="rotacion"
+        android:title="Rotar pantalla" />
+    <ListPreference
+        android:key="idioma"
+        android:title="Idioma"
+        android:summary="Idioma de la información"
+        android:entries="@array/idioma"
+        android:entryValues="@array/tiposIdiomas"
+        android:defaultValue="0"/>
+</PreferenceScreen>

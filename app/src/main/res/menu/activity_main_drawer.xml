@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_restaurantes" android:icon="@drawable/restaurante"
+            android:title="@string/restaurantes" />
+        <item android:id="@+id/nav_ofertasturisticas" android:icon="@drawable/ofertasturisticas"
+            android:title="@string/ofertasturisticas" />
+        <item android:id="@+id/nav_usuario" android:icon="@drawable/usuario" android:title="@string/micuenta" />
+    </group>
+    <item android:title="General">
+        <menu>
+            <item android:id="@+id/nav_ayuda" android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/ayuda" />
+            <item android:id="@+id/nav_acercade" android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/acercade"/>
+        </menu>
+    </item>
+</menu>

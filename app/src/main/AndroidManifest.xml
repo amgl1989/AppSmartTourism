@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="smarttourism.pfc.uca.es.appsmarttourism" >
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <permission
+        android:name="smarttourism.pfc.uca.es.appsmarttourism.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="smarttourism.pfc.uca.es.appsmarttourism.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name"
+        android:supportsRtl="true" android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDRWtmh0Nu5ZOYl6jPAfvabEV8qYuhZK18"/>
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity android:name=".RestaurantList" android:label="@string/restaurantes" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity"
+                />
+        </activity>
+        <activity android:name=".TouristOfferList" android:label="@string/ofertasturisticas" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity"
+                />
+        </activity>
+
+        <activity android:name=".VistaRestaurante" android:label="@string/restaurantes" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity"
+                />
+        </activity>
+        <activity android:name=".MessageEmptyResultsRestaurants" android:label="@string/restaurantes" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity"
+                />
+        </activity>
+        <activity android:name=".VistaTouristOffers" android:label="@string/ofertasturisticas" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity" />
+        </activity>
+        <activity android:name=".MessageEmptyResultsTouristOffers" android:label="@string/ofertasturisticas" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity" />
+        </activity>
+
+        <activity android:name=".AcercaDe" android:label="@string/acercade" android:theme="@style/AppTheme.Dialog"/>
+        <activity android:name=".HelpCenter" android:label="@string/ayuda" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity" />
+        </activity>
+        <activity android:name=".MapRestaurant" android:screenOrientation="portrait"/>
+        <activity android:name=".MapTouristOffers" android:screenOrientation="portrait"/>
+        <activity android:name=".MyAccount" android:label="@string/micuenta" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MainActivity" />
+        </activity>
+        <activity android:name=".Perfil" android:label="@string/perfil" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MyAccount" />
+        </activity>
+        <activity android:name=".UpdatePerfil" android:label="@string/editarperfil" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MyAccount" />
+        </activity>
+        <activity android:name=".PreferenciasRestaurantes" android:label="@string/prefrestaurantes" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MyAccount" />
+        </activity>
+        <activity android:name=".PreferenciasOfertasTuristicas" android:label="@string/prefofertasturisticas" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MyAccount" />
+        </activity>
+        <activity android:name=".UpdatePreferenciasOfertasTuristicas" android:label="@string/editarprefofertasturisticas" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MyAccount" />
+        </activity>
+
+
+        <activity android:name=".CrearPerfil" android:label="@string/crearperfil" android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name=".UpdatePreferenciasRestaurantes" android:label="@string/editarprefrestaurantes" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.MyAccount" />
+        </activity>
+        <activity android:name=".Contacto" android:label="@string/contacto" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.HelpCenter" />
+        </activity>
+
+        <activity android:name=".CaracteristicasSitio" android:label="@string/caracteristicassitio" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.HelpCenter" />
+        </activity>
+
+        <activity android:name=".AsistenciaTecnica" android:label="@string/asistenciatecnica" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.HelpCenter" />
+        </activity>
+
+        <activity android:name=".CerrarCuenta" android:label="@string/asistenciatecnica" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.AsistenciaTecnica" />
+        </activity>
+
+        <activity android:name=".CompartirInformacion" android:label="@string/asistenciatecnica" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.AsistenciaTecnica" />
+        </activity>
+
+        <activity android:name=".QueEsMiCuenta" android:label="@string/asistenciatecnica" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.AsistenciaTecnica" />
+        </activity>
+
+        <activity android:name=".AccederAndroid" android:label="@string/asistenciatecnica" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.AsistenciaTecnica" />
+        </activity>
+
+        <activity android:name=".AccederIphone" android:label="@string/asistenciatecnica" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.AsistenciaTecnica" />
+        </activity>
+
+        <activity android:name=".AccederTablet" android:label="@string/asistenciatecnica" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.AsistenciaTecnica" />
+        </activity>
+
+        <activity android:name=".Idioma" android:label="@string/caracteristicassitio" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.CaracteristicasSitio" />
+        </activity>
+
+        <activity android:name=".Requisitos" android:label="@string/caracteristicassitio" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.CaracteristicasSitio" />
+        </activity>
+
+        <activity android:name=".QueConsultar" android:label="@string/caracteristicassitio" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.CaracteristicasSitio" />
+        </activity>
+        <activity android:name=".QueInformacionEncontrar" android:label="@string/caracteristicassitio" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.CaracteristicasSitio" />
+        </activity>
+        <activity android:name=".OrdenacionFiltrado" android:label="@string/caracteristicassitio" android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarttourism.pfc.uca.es.appsmarttourism.CaracteristicasSitio" />
+        </activity>
+    </application>
+</manifest>

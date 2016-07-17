@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorFondo"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quepuedoconsultar"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quepuedoconsultartxt"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#2E2E2E"
+        android:textStyle="normal">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quepuedoconsultartxt1"
+        android:textSize="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#2E2E2E"
+        android:textStyle="normal"
+        android:layout_below="@+id/TextView01"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TextView032"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quepuedoconsultartxt2"
+        android:textSize="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#2E2E2E"
+        android:textStyle="normal"
+        android:layout_below="@+id/TextView02"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quepuedoconsultartxt3"
+        android:textSize="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#2E2E2E"
+        android:textStyle="normal"
+        android:layout_below="@+id/TextView032"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </TextView>
+</RelativeLayout>

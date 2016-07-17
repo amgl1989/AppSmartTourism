@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Spain</item>
+        <item>United Kingdom</item>
+        <item>Portugal</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>Other...</item>
+    </string-array>
+    <string-array name="idioma">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+    <string-array name="tiposIdiomas">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

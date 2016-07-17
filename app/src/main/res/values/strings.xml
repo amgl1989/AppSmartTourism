@@ -1,0 +1,236 @@
+﻿<resources>
+    <string name="app_name">SmartTourism</string>
+    <string name="perfil">Perfil</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="ofertasturisticas">Ofertas turísticas</string>
+    <string name="acercade">Acerca de...</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="micuenta">Mi cuenta</string>
+    <string name="editarperfil">Editar perfil</string>
+    <string name="prefrestaurantes">Preferencias restaurantes</string>
+    <string name="prefofertasturisticas">Preferencias ofertas turísticas</string>
+    <string name="editarprefrestaurantes">Editar preferencias restaurantes</string>
+    <string name="editarprefofertasturisticas">Editar preferencias ofertas turísticas</string>
+    <string name="informacioninicial">SmartTourism necesita que el dispositivo tenga conexión a Internet
+        así como la ubicación esté activada. En caso contrario, la aplicación no funcionará correctamente</string>
+    <string name="notificacion">Notificación</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="acercadeTexto">SmartTourism v1.0 ha sido desarrollado por Ana María Guzmán López
+        para el Proyecto Final de Carrera de la Titulación de Ingeniería Informática, en la Escuela
+        Superior de Ingeniería de la Universidad de Cádiz.</string>
+    <string name="username">Username</string>
+    <string name="ayuda">Centro de ayuda</string>
+    <string name="filtradoRestaurante">¿Desea filtrar los restaurantes por sus preferencias?</string>
+    <string name="filtradoOfertasTuristicas">¿Desea filtrar las ofertas turísticas por sus preferencias?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="confirmacion">Confirmación</string>
+    <string name="numeroasientos">Número de asientos</string>
+    <string name="solicitudnumeroasientos">"¿Desea solicitar el número de asientos? Introdúzcalos."</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="nombreusuario">Nombre del usuario</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="apellidosusuario">Apellidos del usuario</string>
+    <string name="fechanacimiento">Fecha de nacimiento</string>
+    <string name="edad">Edad</string>
+    <string name="paisorigen">País de origen</string>
+    <string name="crearperfil">Crear nuevo usuario</string>
+
+    <string name="filtrar">Filtrar</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="tiposcomidas">Tipos de comida servida</string>
+    <string name="tiposrestaurantes">Tipos de restaurantes</string>
+    <string name="tiempometeorologico">Por tiempo meteorológico</string>
+    <string name="productosfrescos">Servicio de productos frescos</string>
+    <string name="terraza">Por terraza</string>
+    <string name="portiposrestaurantes">Por tipos de restaurantes</string>
+    <string name="portiposcomidas">Por tipos de comida servida</string>
+    <string name="porproductosfrescos">Por servicio de productos frescos</string>
+    <string name="puntuacionlimpieza">De mayor a menos puntuación de limpieza</string>
+
+    <string name="ofertasguiadas">Ofertas turísticas guiadas</string>
+    <string name="ofertasairelibre">Ofertas turísticas al aire libre</string>
+    <string name="ofertasreserva">Ofertas turísticas con reservas</string>
+    <string name="portiposturismo">Por tipo de turismo</string>
+
+    <string name="ubicacion">Ubicación</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="descripcion">Descripción</string>
+    <string name="guiada">Es guiada</string>
+    <string name="reserva">Necesita reserva</string>
+    <string name="airelibre">Es al aire libre</string>
+    <string name="tipoturismo">Tipos de turismo</string>
+    <string name="horarios">Fechas y horarios</string>
+    <string name="asientos">Número de asientos totales</string>
+    <string name="gradolimpieza">Grado de Limpieza</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="resultadovacioOfertasTuristicas">No existe ninguna oferta turística cercana a su
+        localización y que corresponda con sus preferencias seleccionadas.</string>
+    <string name="resultadovacioOfertasTuristicas1">Si desea consultar las ofertas turísticas que ofrecemos,
+        seleccione No en la ventana emergente.</string>
+    <string name="resultadovacioRestaurantes">No existe ningún restaurante cercano a su
+        localización y que corresponda con sus preferencias seleccionadas.</string>
+    <string name="resultadovacioRestaurantes1">Si desea consultar los restaurantes que ofrecemos,
+        seleccione No en la ventana emergente.</string>
+
+    <string name="lista">Lista</string>
+    <string name="compartir">Compartir</string>
+    <string name="guardar">Guardar</string>
+    <string name="editar">Editar</string>
+    <string name="inicio">Inicio</string>
+
+    <string name="fechacomidafresca">Últimas 5 fechas insertadas para productos frescos</string>
+    <string name="fechaasientoslibres">Últimas 5 fechas insertadas con el número de asientos libres</string>
+
+    <string name="errorconexion">Error. Compruebe su conexión a Internet.</string>
+    <string name="texto1"> kms desde mi posición a </string>
+
+    <string name="contacto">Contacto</string>
+    <string name="asistenciatecnica">Asistencia técnica</string>
+    <string name="caracteristicassitio">Características del sitio</string>
+
+    <string name="contactotexto">Si tiene alguna duda contacte con nuestro soporte general,
+        escribiendo en el recuadro de abajo un correo electrónico a: </string>
+    <string name="de">De: </string>
+    <string name="asunto">Asunto: </string>
+    <string name="mensaje">Mensaje: </string>
+    <string name="email">ana.guzmanlopez@alum.uca.es</string>
+    <string name="enviaremail">Enviar mensaje</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="quepuedoconsultar">¿Qué puedo consultar?</string>
+    <string name="queinformacionencuentro">¿Qué información puedo encontrar?</string>
+    <string name="ordenacionfiltrado">Ordenación y filtrado</string>
+    <string name="idioma">Idiomas</string>
+    <string name="requisitos">Requisitos obligatorios</string>
+
+    <string name="comocierrocuenta">¿Cómo cierro mi cuenta?</string>
+    <string name="compartirinformacion">¿Se compartirá mi información privada?</string>
+    <string name="queesmicuenta">¿Qué es Mi cuenta?</string>
+    <string name="accederAndroid">¿Cómo accedo a SmartTourism desde mi teléfono Android?</string>
+    <string name="accederIphone">¿Puedo acceder a SmartTourism desde mi Iphone?</string>
+    <string name="accederTablet">¿Puedo acceder a SmartTourism desde mi Tablet?</string>
+
+    <string name="comocierrocuentatxt">
+        Sentimos que no esté contento cn nuestro servicio. Nos esforzamos por ofrecer un servicio completo y adaptado
+        a nuestros usuarios. Lo mejoraremos.
+    </string>
+    <string name="comocierrocuentatxt1">
+        En caso que desee cerrar su cuenta, póngase en contacto con el soporte técnico, y será borrada toda su información.
+        Por otro lado, usted sólo deberá desinstalar SmartTourism de su dispositivo móvil.
+    </string>
+
+    <string name="compartirinformaciontxt">
+        La privacidad y la seguridad son las prioridades principales de SmartTourism.
+    </string>
+
+    <string name="compartirinformaciontxt1">
+        Por lo que en ningún momento se facilitarán a ninguna aplicación, empresa externa, persona... los datos personales de los usuarios.
+    </string>
+
+    <string name="quepuedoconsultartxt">
+        SmartTourism recoge información general de los restaurantes y ofertas turística de la Bahía de Cádiz.
+    </string>
+    <string name="quepuedoconsultartxt1">
+        De los restaurantes se recoge el nombre, ubicación, breve descripción del mismo, capacidad,
+        tipo de restaurante y comida servida...
+    </string>
+    <string name="quepuedoconsultartxt2">
+        Con respecto a las ofertas turísticas, se puede conocer nombre, ubicación, breve descripción,
+        si necesita reserva previa, si se realiza en espacio abierto....
+    </string>
+    <string name="quepuedoconsultartxt3">
+        Además, el usuario podrá almacenar y consultar su información personal y los factores que condicionarán los métodos de
+        filtrado y ordenación de los restaurantes y ofertas turísticas por separados, desde el Preferencias
+        en Mi Cuenta.
+    </string>
+
+    <string name="idiomatxt">
+        SmartTourism se puede utilizar en dos idiomas: Español e Inglés. El idioma será el mismo que el del dispositivo
+        móvil. Si desea cambiar, deberá acceder a los Ajustes del dispositivos y modificarlo ahí por el deseado.
+    </string>
+    <string name="idiomatxt1">
+        En caso que el dispositivo posea un idioma diferente de estos dos, el idioma de la aplicación será por
+        defecto el Español.
+    </string>
+
+    <string name="requisitostxt">
+        Es obligatorio que el dispositivo posea acceso a Internet, así como que previamente esté activada la ubicación.
+    </string>
+
+    <string name="queesmicuentatxt">
+        Mi cuenta es el area donde el usuario indica sus preferencias para que se muestren los restaurantes y
+        ofertas turísticas más adecuados a los gustos de él. Gracias a tu cuenta, será más fácil:
+    </string>
+    <string name="queesmicuentatxt2">
+        - Conocer la ubicación donde te encuentras y poder proporcionarte los lugares más cercanos.
+    </string>
+    <string name="queesmicuentatxt3">
+        - Gestionar los restaurantes cuyo tipo de comida, capacidad, ubicación... estén más acordes a tus preferencias y necesidades.
+    </string>
+    <string name="queesmicuentatxt4">
+        - Gestionar las ofertas turísticas más adecuadas a tus necesidades y preferencias.
+    </string>
+    <string name="queesmicuentatxt5">
+        - Gestionar la configuración de tu cuenta y tus preferencias.
+    </string>
+    <string name="queesmicuentatxt6">
+        Mi cuenta es una página privada, por lo que solamente tú podrás conocer la información guardada. Si deseas hacerla pública, podrás
+        compartirla a través de las redes sociales con la opción Compartir.
+    </string>
+
+    <string name="accederAndroidtxt">
+        Actualmente, existe una única versión de SmartTourism , la cual solo puede instalarse en dispositivos
+        Android. Para poder utilizarla, deberá descargar SmartTourism de la Play Store e instalarla.
+    </string>
+    <string name="accederAndroidtxt1">
+        Esta aplicación está en constante mejora, por lo que será conveniente que la actualice cada vez
+        que reciba una notificación indicándolo.
+    </string>
+    <string name="accederIphonetxt">
+        Actualmente esta aplicación está en proceso de desarrollo, por lo que no existe una versión que permita
+        acceder desde un dispositivo Iphone. Una de las mejoras futuras será crear una versión que sea soportada
+        por este tipo de dispositivos.
+    </string>
+
+    <string name="accederTablettxt">
+        Actualmente esta aplicación está en proceso de desarrollo, por lo que no existe una versión que permita
+        acceder desde una Tablet. Una de las mejoras futuras será crear una versión que sea soportada
+        por este tipo de dispositivos.
+    </string>
+
+    <string name="informacionEncontrar1">
+        SmartTourism permite que el usuario conozca todos nuestros restaurantes y ofertas turísticas de la zona,
+        proporcionando una extensa información de cada uno de ellos.
+    </string>
+    <string name="informacionEncontrar2">
+        También, muestra la ubicación del restaurante u oferta turistica actualmente consultada y la distancia a la que
+        el usuario se encuentra de la misma.
+    </string>
+
+    <string name="ordenacionFiltrado1">
+        Para gestionar los lugares más adecuados al usuario, SmartTourism utiliza los métodos de ordenación y filtrado.
+    </string>
+    <string name="ordenacionFiltrado2">
+        Ordena los lugares por cercanía a la ubicación actual del usuario.
+    </string>
+    <string name="ordenacionFiltrado3">
+        Así como, SmartTourism consulta un servició de tiempo meteorológico en dicha localización y dependiendo del
+        resultado de éste, filtra aquellas ofertas turísticas que sean al aire libre o no, y restaurantes con terraza.
+    </string>
+    <string name="ordenacionFiltrado4">
+        También, el usuario podrá rellenar sus preferencias en restaurantes u ofertas turísticas, con el fin de
+        que los lugares mostrados sean los más similares a los gustos de él.
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="direccionIP">Dirección IP</string>
+    <string name="direccionIP1">Ingrese su dirección IP:</string>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:padding="8dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:background="@color/colorFondo">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filtrar"
+            android:id="@+id/textView1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000000"
+            android:typeface="sans" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+            <!--<CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxTiempoMeteorologicoPrefTouristOffers"
+                android:text="@string/tiempometeorologico"
+                android:elegantTextHeight="false"
+                android:clickable="false"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:typeface="sans"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="normal" />-->
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxGuidedPrefTouristOffers"
+                android:text="@string/ofertasguiadas"
+                android:elegantTextHeight="false"
+                android:clickable="false"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:typeface="sans"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxOpenAirPrefTouristOffers"
+                android:text="@string/ofertasairelibre"
+                android:elegantTextHeight="false"
+                android:clickable="false"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:typeface="sans"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxBookedPrefTouristOffers"
+                android:text="@string/ofertasreserva"
+                android:elegantTextHeight="false"
+                android:clickable="false"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:typeface="sans"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxSchedulePrefTouristOffers"
+                android:text="@string/horarios"
+                android:elegantTextHeight="false"
+                android:clickable="false"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:typeface="sans"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/portiposturismo"
+                android:id="@+id/textView10"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:textSize="16dp"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerTypeTourism"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

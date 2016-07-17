@@ -1,0 +1,231 @@
+﻿<resources>
+    <string name="app_name">SmartTourism</string>
+    <string name="perfil">Profile</string>
+    <string name="restaurantes">Restaurants</string>
+    <string name="ofertasturisticas">Touristic offers</string>
+    <string name="acercade">About...</string>
+    <string name="ajustes">Settings</string>
+    <string name="micuenta">My account</string>
+    <string name="editarperfil">Edit profile</string>
+    <string name="prefrestaurantes">Preferences restaurants</string>
+    <string name="prefofertasturisticas">Preferences touristic offers</string>
+    <string name="editarprefrestaurantes">Update preferences restaurants</string>
+    <string name="editarprefofertasturisticas">Update preferences touristic offers</string>
+    <string name="informacioninicial">SmartTourism needs connection to Internet in the smartphone
+    and the activation of the ubication to the user; if not the application will not work correctly.</string>
+    <string name="notificacion">Notification</string>
+    <string name="aceptar">Accept</string>
+    <string name="acercadeTexto">SmartTourism v1.0 hashas been developed by Ana María Guzmán López
+        for the Final Project of Computer Engineering, in High School Engineering of University of Cádiz.</string>
+    <string name="username">Username</string>
+    <string name="ayuda">Help center</string>
+    <string name="filtradoRestaurante">Would you like filtering the restaurants by your opinion?</string>
+    <string name="filtradoOfertasTuristicas">Would you like filtering the touristic offers by your opinion?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="confirmacion">Confirmation</string>
+    <string name="numeroasientos">Number of seating</string>
+    <string name="solicitudnumeroasientos">Would you like add number of seating that you need?</string>
+    <string name="crearperfil">Insert new user</string>
+
+    <string name="nombre">Name</string>
+    <string name="nombreusuario">Name</string>
+    <string name="apellidos">Surnames</string>
+    <string name="apellidosusuario">Surnames</string>
+    <string name="fechanacimiento">Date born</string>
+    <string name="edad">Age</string>
+    <string name="paisorigen">Country source</string>
+
+    <string name="filtrar">Filter</string>
+    <string name="ordenar">Sort</string>
+    <string name="tiposcomidas">Types of food served</string>
+    <string name="tiposrestaurantes">Types of restaurants</string>
+    <string name="tiempometeorologico">By weather</string>
+    <string name="terraza">By terrace</string>    
+    <string name="portiposrestaurantes">By types of restaurants</string>
+    <string name="portiposcomidas">By types of food served</string>
+    <string name="porproductosfrescos">By service fresh product</string>
+    <string name="puntuacionlimpieza">From highest to lowest score cleaning</string>
+
+    <string name="ofertasguiadas">Touristic offers guided</string>
+    <string name="ofertasairelibre">Touristic offers outdoor</string>
+    <string name="ofertasreserva">Touristic offers reservation</string>
+    <string name="portiposturismo">By types of tourism</string>
+
+    <string name="ubicacion">Location</string>
+    <string name="latitud">Latitude</string>
+    <string name="longitud">Longitude</string>
+    <string name="descripcion">Description</string>
+    <string name="guiada">It is guided</string>
+    <string name="reserva">Reservation required</string>
+    <string name="airelibre">In outdoor</string>
+    <string name="tipoturismo">Types of tourism</string>
+    <string name="horarios">Opening times</string>
+    <string name="asientos">Number of seating</string>
+    <string name="gradolimpieza">Score cleaning</string>
+
+    <string name="usuario">User</string>
+    <string name="resultadovacioOfertasTuristicas">There is not any nearby touristic offers your
+        location and corresponding with your selected preferences.</string>
+    <string name="resultadovacioOfertasTuristicas1">If you wish see touristic offers we offer, you
+        select No in the pop-up.</string>
+    <string name="resultadovacioRestaurantes">There is not any nearby restaurant your location and
+        corresponding with your selected preferences.</string>
+    <string name="resultadovacioRestaurantes1">If you wish see restaurants we offer, you
+        select No in the pop-up.</string>
+
+    <string name="lista">List</string>
+    <string name="compartir">Share</string>
+    <string name="guardar">Save</string>
+    <string name="editar">Edit</string>
+    <string name="inicio">Start</string>
+
+    <string name="fechacomidafresca">Last 5 dates inserted for fresh produce</string>
+    <string name="fechaasientoslibres">Last 5 dates inserted with the number of empty seats</string>
+
+    <string name="errorconexion">Error. Checking your Internet connection.</string>
+    <string name="texto1"> kms from my position to </string>
+
+    <string name="contacto">Contact</string>
+    <string name="asistenciatecnica">Technical assistance</string>
+    <string name="caracteristicassitio">Site features</string>
+
+    <string name="contactotexto">If you have any question, you should contact with our general support.
+        You send an email in the next table to:</string>
+    <string name="de">From: </string>
+    <string name="asunto">Subject: </string>
+    <string name="mensaje">Message: </string>
+    <string name="email">ana.guzmanlopez@alum.uca.es</string>
+    <string name="enviaremail">Send message</string>
+    <string name="cancelar">Cancel</string>
+
+    <string name="quepuedoconsultar">What can I see?</string>
+    <string name="queinformacionencuentro">What information can I find?</string>
+    <string name="ordenacionfiltrado">Sortering and filtering</string>
+    <string name="idioma">Languages</string>
+    <string name="requisitos">Requirements</string>
+
+    <string name="comocierrocuenta">Can I close my account?</string>
+    <string name="compartirinformacion">Can people read my private information?</string>
+    <string name="queesmicuenta">What is My Account?</string>
+    <string name="accederAndroid">How do I access to SmartTourism fron my Android device?</string>
+    <string name="accederIphone">How do I access to SmartTourism fron my Iphone device?</string>
+    <string name="accederTablet">How do I access to SmartTourism fron my Tablet device?</string>
+
+    <string name="comocierrocuentatxt"> We feel that you are not happy with our service.
+        We strive to provide a complete and suitable service to our users. We will improve it.
+    </string>
+    <string name="comocierrocuentatxt1">
+        If you want to close your account, you will send an email to technical support and your information will be deleted.
+        On the other hand, you shoud be uninstall SmartTourism of your device.
+    </string>
+
+    <string name="compartirinformaciontxt">
+        Privacity and security are the main priorities SmartTourism.
+    </string>
+    <string name="compartirinformaciontxt1">
+        We do not provide personal informatio to any application users, external company, people...
+    </string>
+
+    <string name="quepuedoconsultartxt">
+        Smart Tourism gets information from restaurants and touristic offers of Cadiz.
+    </string>
+    <string name="quepuedoconsultartxt1">
+        For example, the application gets of the restaurants: name, location, description, capacity, type of restaurant,
+        type of food served...
+    </string>
+    <string name="quepuedoconsultartxt2">
+        And the touristic offers:  name, location, description, advance booking...
+    </string>
+    <string name="quepuedoconsultartxt3">
+        In addition, the user saves and sees his personal information and the factors which will determine the methods
+        of filtering and sorting of restaurants and touristic offers, from the Preferences in My Account.
+    </string>
+
+    <string name="idiomatxt">
+        SmartTourism can be used in two languages: Spanish and English. The language is the same as the device.
+        If you want to change it, you should access the device settings and change there for the desired.        
+    </string>
+    <string name="idiomatxt1">
+        En caso que el dispositivo posea un idioma diferente de estos dos, el idioma de la aplicación será por
+        defecto el Inglés.
+        If the device has a different language, the language of the application will be for
+        Spanish default.
+    </string>
+
+    <string name="requisitostxt">
+        It is required that device to access the Internet and the location is activated.
+    </string>
+
+    <string name="queesmicuentatxt">
+        My account is the area where the user indicates your preferences to show the restaurants and touristic offers
+        more suited to the preferences him. Thanks to your account, it will be easy for you:
+    </string>
+    <string name="queesmicuentatxt2">
+        - To know the location where you are and providing the nearest locations.
+    </string>
+    <string name="queesmicuentatxt3">
+        - To manage restaurants whose capacity, location ... are more suited to your preferences and needs.
+    </string>
+    <string name="queesmicuentatxt4">
+        - To manage the most suitable touristic offers to your needs.
+    </string>
+    <string name="queesmicuentatxt5">
+        - To manage your account settings and preferences.
+    </string>
+    <string name="queesmicuentatxt6">
+        My account is a private page, so only you can know your information. If you want to make it public, you
+        can share through social networks with Sharing.
+    </string>
+
+    <string name="accederAndroidtxt">
+        Currently, there is a single version of SmartTourism, which can install on Android devices.
+        You should download SmartTourism the Play Store and install it.
+    </string>
+    <string name="accederAndroidtxt1">
+        This application is improving, so it will be convenient to update it every time you
+        receive a notification.
+    </string>
+    <string name="accederIphonetxt">
+        Currently this application is developing, so there is not a version that accesses from iPhone
+        devices. A future improvements, it is to create a version that is supported by these devices.
+    </string>
+    <string name="accederTablettxt">
+        Currently this application is developing, so there is not a version that accesses from Tablets.
+        A future improvements, it is to create a version that is supported by these devices.
+    </string>        
+    <string name="informacionEncontrar1">
+        SmartTourism allows the user to know all our restaurants and touristic offers of the area,
+        providing information on each of them.
+    </string>
+
+    <string name="informacionEncontrar2">
+        Also, the application shows the location of the restaurant or touristic offer, which the user is queried and the distance
+        which is the same.
+    </string>
+
+    <string name="ordenacionFiltrado1">
+        To manage the most appropriate places the user, SmartTourism uses the methods of sorting and filtering.
+    </string>
+    <string name="ordenacionFiltrado2">
+        To sort places by proximity to the user´s current location.
+    </string>
+    <string name="ordenacionFiltrado3">
+        SmartTourism sees a meteorologic service in that location and depending on the
+        result, the application filtera those outdoor touristic offers and restaurants with terrace.
+    </string>
+    <string name="ordenacionFiltrado4">
+        Also, the user can fill your preferences in restaurants or touristic offers, with the objective of
+        showing the most similar places to the likes of him.
+    </string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="direccionIP">IP address</string>
+    <string name="direccionIP1">To insert your address:</string>
+    <string name="productosfrescos">Fresh products</string>
+</resources>

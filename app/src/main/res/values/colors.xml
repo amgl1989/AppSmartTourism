@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#81C784</color>
+    <color name="colorBotonPulsado">#C5E1A5</color>
+    <color name="colorBotonPulsando">#DCEDC8</color>
+    <color name="colorBotonNormal">#FFFFFF</color>
+    <color name="colorFondo">#FEF6E5</color>-->
+
+    <color name="colorPrimary">#3399C0</color>
+    <color name="colorPrimaryDark">#218CB5</color>
+    <color name="colorAccent">#63B2CF</color>
+    <color name="colorBotonPulsando">#70C7E7</color>
+    <color name="colorBotonPulsado">#B9EAFC</color>
+    <color name="colorBotonNormal">#FFFFFF</color>
+    <color name="colorBotonEfecto">#B6E5F5</color>
+    <color name="colorFondo">#D8F0F8</color>
+</resources>
